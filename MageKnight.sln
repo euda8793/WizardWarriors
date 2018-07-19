@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MageKnight.Startup", "MageKnight.Startup\MageKnight.Startup.csproj", "{5BE2344E-5555-4032-911D-04770AB6EC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MageKnight.Model", "MageKnight.Model\MageKnight.Model.csproj", "{8D124192-B2F4-4807-A0D1-45613F0B508E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BE2344E-5555-4032-911D-04770AB6EC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE2344E-5555-4032-911D-04770AB6EC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE2344E-5555-4032-911D-04770AB6EC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE2344E-5555-4032-911D-04770AB6EC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D124192-B2F4-4807-A0D1-45613F0B508E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D124192-B2F4-4807-A0D1-45613F0B508E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D124192-B2F4-4807-A0D1-45613F0B508E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D124192-B2F4-4807-A0D1-45613F0B508E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B29C422-A82F-4CDD-9E6E-391844DB7997}
+	EndGlobalSection
+EndGlobal
