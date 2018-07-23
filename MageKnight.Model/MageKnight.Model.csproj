@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,17 +42,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IAction.cs" />
+    <Compile Include="IAffectAction.cs" />
     <Compile Include="IBoard.cs" />
     <Compile Include="IGame.cs" />
+    <Compile Include="IMoveAction.cs" />
     <Compile Include="IPlayer.cs" />
     <Compile Include="IPlayerCollection.cs" />
+    <Compile Include="IRule.cs" />
     <Compile Include="ISoldier.cs" />
     <Compile Include="ITerrain.cs" />
     <Compile Include="ITurn.cs" />
     <Compile Include="ITurnCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RuleBase.cs" />
-    <Compile Include="Rules.cs" />
+    <Compile Include="RuleBook.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

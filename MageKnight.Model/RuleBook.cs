@@ -7,24 +7,28 @@ using System.Threading.Tasks;
 
 namespace MageKnight.Model
 {
-    public sealed class Rules
+    public sealed class RuleBook
     {
-        private static Rules instance = null;
+        private static RuleBook instance = null;    
 
-        
 
-        private Rules()
+        private RuleBook()
+        {
+
+        }
+
+        public static bool IsValid(IAction action)
         {
 
         }
         
-        public static Rules Instance
+        public static RuleBook Instance
         {
             get
             {
                 if (instance == null)
                 {
-                    instance = new Rules();
+                    instance = new RuleBook();
                 }
 
                 return instance;

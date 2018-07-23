@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace MageKnight.Model
 {
-    public abstract class RuleBase<T, U> 
+    public abstract class RuleBase : IRule
     {
+        private IList<Type> entities;
 
+        public IList<Type> Entities => this.entities;
+
+        public RuleBase(IAction action)
+        {
+            this.entities = entities;
+        }
+
+        public abstract bool IsValid(IAction action);
     }
 }

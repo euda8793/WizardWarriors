@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MageKnight.Model
 {
-    public interface ISoldier
+    public interface IAbility
     {
     }
 }
